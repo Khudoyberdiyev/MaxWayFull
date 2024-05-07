@@ -12,6 +12,7 @@ const About = () => {
         <img src={about} className="w-full rounded-2xl" alt="About image" />
         {i18n.language === "uz" ? (
           <article className="max-w-[818px] text-base text-[#252c32] mt-8">
+          {/* Uzbek Lengauge */}
             <p>
               Kompaniya 2005 yilning fevral oyida Toshkent shahrida tashkil
               etilgan. Hozirda kompaniyaning Toshkent shahrida 18 ta filiali
@@ -25,7 +26,7 @@ const About = () => {
               harakat qilmoqdamiz. Har bir tayyorlangan taom bilan biz o'ziga
               xos retseptlarning tafsilotlarini aniqlaymiz va sizning sevimli
               brendingiz bo'lishda davom etish uchun narx va sifatning mukammal
-              muvozanatini qidiramiz. <br /> Agar siz kutilmaganda biz tomondan
+              muvozanatini qidiramiz. <br /> Agar sizni kutilmaganda biz tomondan
               yomon xizmat yoki past sifatli pishirilgan taomga duch kelsangiz,
               bizga @maxwaymasterfood_bot manziliga murojaat qiling. Biz ijobiy
               va salbiy fikr-mulohazalarni mamnuniyat bilan qabul qilamiz.
@@ -35,6 +36,7 @@ const About = () => {
           </article>
         ) : i18n.language === "ru" ? (
           <article className="max-w-[818px] text-base text-[#252c32] mt-8">
+          {/* Russian Lengauge */}
             <p>
               Компания была основана в феврале 2005 года в городе Ташкент. В
               настоящее время у компании 18 филиалов в Ташкенте. <br />
@@ -56,6 +58,7 @@ const About = () => {
           </article>
         ) : (
           <article className="max-w-[818px] text-base text-[#252c32] mt-8">
+          {/* English lengauge */}
             <p>
               The company was established in February 2005 in the city of
               Tashkent. Currently, the company has 18 branches in Tashkent.{" "}
