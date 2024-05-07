@@ -63,8 +63,8 @@ const Header = () => {
               <Dropdown
                 overlay={
                   <ul className="bg-white p-3">
-                    {items.map((item) => (
-                      <div>
+                    {items.map((item, index) => (
+                      <div key={index}>
                         <li
                           key={item.key}
                           className="flex items-center gap-x-2 p-1"
@@ -376,7 +376,9 @@ const Header = () => {
                       </div>
                     </div>
                   </div>
-                  <button className="px-6 py-3 rounded-3xl w-full text-sm text-[#808080] bg-[#DDE2E4] mt-5 cursor-not-allowed">Select</button>
+                  <button className="px-6 py-3 rounded-3xl w-full text-sm text-[#808080] bg-[#DDE2E4] mt-5 cursor-not-allowed">
+                    Select
+                  </button>
                 </div>
               )}
               <div>
@@ -408,8 +410,8 @@ const Header = () => {
             <Dropdown
               overlay={
                 <ul className="bg-white p-3">
-                  {items.map((item) => (
-                    <div>
+                  {items.map((item, index) => (
+                    <div key={index}>
                       <li
                         key={item.key}
                         className="flex items-center gap-x-2 p-1"
