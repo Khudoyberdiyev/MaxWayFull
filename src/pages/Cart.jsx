@@ -6,11 +6,7 @@ const Cart = () => {
   const [counters, setCounters] = useState({});
   const [cartItems, setCartItems] = useState([]);
   const [modal2Open, setModal2Open] = useState(false);
-
-  const totalPrice = cartItems.reduce(
-    (total, item) => total + parseFloat(item.price),
-    0
-  );
+  const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
     const savedCartItems = JSON.parse(localStorage.getItem("cart-storage"));
@@ -25,8 +21,14 @@ const Cart = () => {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("cartPrice", JSON.stringify(totalPrice));
-  }, [totalPrice]);
+    const price = cartItems.reduce(
+      (total, item) =>
+        total + parseFloat(item.price) * (counters[item.id] || 1),
+      0
+    );
+    setTotalPrice(price);
+    localStorage.setItem("cartPrice", JSON.stringify(price));
+  }, [cartItems, counters]);
 
   const removeFromCart = (id) => {
     const updatedCartItems = cartItems.filter((item) => item.id !== id);
@@ -53,7 +55,6 @@ const Cart = () => {
         [id]: prevCounters[id] - 1,
       }));
     } else {
-      // removeFromCart(id);
       setModal2Open(true);
     }
   };
@@ -141,9 +142,7 @@ const Cart = () => {
             <div className="my-4 flex items-center justify-between">
               <p className="">Mahsulotlar</p>
               <p className="font-semibold">
-                {localStorage
-                  .getItem("cartPrice")
-                  ?.replace(/\B(?=(\d{3})+(?!\d))/g, " ")}{" "}
+                {totalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")}{" "}
                 000 so'm
               </p>
             </div>
@@ -154,13 +153,11 @@ const Cart = () => {
             <div className="my-4 flex items-center justify-between">
               <p className="">To'lash uchun</p>
               <p className="font-semibold">
-                {localStorage
-                  .getItem("cartPrice")
-                  ?.replace(/\B(?=(\d{3})+(?!\d))/g, " ")}{" "}
+                {totalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")}{" "}
                 000 so'm
               </p>
             </div>
-            {localStorage.getItem("cartPrice") < 40 ? (
+            {totalPrice < 40 ? (
               <div className="flex flex-col">
                 <button className="px-6 py-3 rounded-3xl bg-[#dde2e4] text-[#aeaeae]">
                   To'lov sahifasiga o'tish
