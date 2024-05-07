@@ -1,0 +1,37 @@
+{
+    "header": {
+        "menu": "Menyu",
+        "branches": "Filiallar",
+        "about": "Biz haqimizda",
+        "contact": "Bog'lanish",
+        "delivery": "Olib ketish",
+        "currency": "so'm",
+        "login": "Kirish",
+        "modalTitle": "Menyu"
+    },
+    "main": {
+        "sectionTitle1": "🍟🍔🥤Maxi BOX",
+        "sectionTitle2": "🥪Klab-Sendvich",
+        "sectionTitle3": "🌯Lavash",
+        "sectionTitle4": "🌮Shaurma",
+        "sectionTitle5": "🫔Panini",
+        "sectionTitle6": "🍔Burger",
+        "sectionTitle7": "🍱Donar Kebab",
+        "sectionTitle8": "🌭Hot-Dog",
+        "sectionTitle9": "🍟Gazaklar",
+        "sectionTitle10": "🍚Tamaddilar",
+        "sectionTitle11": "🍰Desertlar",
+        "sectionTitle12": "🥤Ichimliklar",
+        "sectionTitle13": "🥫Souslar"
+    },
+    "footer": {
+        "copy": "© Delever 2020 - 2024 Barcha huquqlar himoyalangan"
+    },
+    "aboutPage": {
+        "aboutTitle": "Kompaniya haqida"
+    },
+    "contactPage": {
+        "contactText": "Telegramda sharh qoldiring yoki savol bering",
+        "callCebter": "Yagona aloqa markazi "
+    }
+}

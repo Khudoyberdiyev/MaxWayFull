@@ -1,0 +1,37 @@
+{
+    "header": {
+        "menu": "Menu",
+        "branches": "Branches",
+        "about": "About us",
+        "contact": "Contact",
+        "delivery": "Delivery or Pickup",
+        "currency": "sum",
+        "login": "Log in",
+        "modalTitle": "Menu"
+    },
+    "main": {
+        "sectionTitle1": "🍟🍔🥤Maxi BOX",
+        "sectionTitle2": "🥪Club - Sandvich",
+        "sectionTitle3": "🌯Lavash",
+        "sectionTitle4": "🌮Shawarma",
+        "sectionTitle5": "🫔Panini",
+        "sectionTitle6": "🍔Burgers",
+        "sectionTitle7": "🍱Donar Kebab",
+        "sectionTitle8": "🌭Hot-Dog",
+        "sectionTitle9": "🍟Snacks",
+        "sectionTitle10": "🍚Garnish",
+        "sectionTitle11": "🍰Desserts",
+        "sectionTitle12": "🥤Drinks",
+        "sectionTitle13": "🥫Souses"
+    },
+    "footer": {
+        "copy": "© Delever 2020 - 2024 All rights reserved"
+    },
+    "aboutPage": {
+        "aboutTitle": "About company"
+    },
+    "contactPage": {
+        "contactText": "Leave a review or ask a question in Telegram",
+        "callCebter": "Single call center"
+    }
+}
