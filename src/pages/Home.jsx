@@ -32,7 +32,7 @@ const Home = () => {
           <div className="mt-8">
             <Slider />
           </div>
-          <div id="🍟🍔🥤Maxi BOX" className="pt-[80px]">
+          <div id="🍟🍔🥤Maxi BOX" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle1")}
             </h2>
@@ -42,7 +42,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🥪Klab-Sendvich" className="pt-[80px]">
+          <div id="🥪Klab-Sendvich" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle2")}
             </h2>
@@ -52,7 +52,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🌯Lavash" className="pt-[80px]">
+          <div id="🌯Lavash" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle3")}
             </h2>
@@ -62,7 +62,7 @@ const Home = () => {
               ))}{" "}
             </div>
           </div>
-          <div id="🌮Shaurma" className="pt-[80px]">
+          <div id="🌮Shaurma" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle4")}
             </h2>
@@ -72,7 +72,7 @@ const Home = () => {
               ))}{" "}
             </div>
           </div>
-          <div id="🫔Panini" className="pt-[80px]">
+          <div id="🫔Panini" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle5")}
             </h2>
@@ -82,7 +82,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🍔Burger" className="pt-[80px]">
+          <div id="🍔Burger" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle6")}
             </h2>
@@ -92,7 +92,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🍱Donar Kebab" className="pt-[80px]">
+          <div id="🍱Donar Kebab" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle7")}
             </h2>
@@ -102,7 +102,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🌭Hot-Dog" className="pt-[80px]">
+          <div id="🌭Hot-Dog" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle8")}
             </h2>
@@ -112,7 +112,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🍟Gazaklar" className="pt-[80px]">
+          <div id="🍟Gazaklar" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle9")}
             </h2>
@@ -122,7 +122,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🍚Tamaddilar" className="pt-[80px]">
+          <div id="🍚Tamaddilar" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle10")}
             </h2>
@@ -132,7 +132,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🍰Desertlar" className="pt-[80px]">
+          <div id="🍰Desertlar" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle11")}
             </h2>
@@ -142,7 +142,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🥤Ichimliklar" className="pt-[80px]">
+          <div id="🥤Ichimliklar" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle12")}
             </h2>
@@ -152,7 +152,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🥫Souslar" className="pt-[80px]">
+          <div id="🥫Souslar" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle13")}
             </h2>
