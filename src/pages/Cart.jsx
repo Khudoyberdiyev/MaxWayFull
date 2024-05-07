@@ -114,7 +114,7 @@ const Cart = () => {
                   onCancel={() => setModal2Open(false)}
                 >
                   <h3 className="text-2xl font-bold text-center">Diqqat</h3>
-                  <p className="text-lg text-[#808080] mt-2 mb-8 text-center">
+                  <p className="text-lg text-[#8c8c8c] mt-2 mb-8 text-center">
                     Haqiqatan ham ushbu mahsulotni oʻchirib tashlamoqchimisiz?
                   </p>
                   <div className="mx-auto flex justify-center gap-x-3">

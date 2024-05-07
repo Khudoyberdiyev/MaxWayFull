@@ -132,7 +132,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          <div id="🍰Desertlar" className="pt-[110px]">
+          <div id="🍰Dessertlar" className="pt-[110px]">
             <h2 className=" text-[28px] font-bold mb-5">
               {t("main.sectionTitle11")}
             </h2>
