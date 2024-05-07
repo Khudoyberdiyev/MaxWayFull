@@ -92,7 +92,7 @@ const Header = () => {
                   ) : i18n.language === "ru" ? (
                     <div className="flex items-center gap-x-2 px-4 py-2">
                       <img src={flagrus} className="w-[18px]" alt="flag" />
-                      <p className="text-base">Русский</p>
+                      <p className="text-base">Russian</p>
                     </div>
                   ) : (
                     <div className="flex items-center gap-x-2 px-4 py-2">
